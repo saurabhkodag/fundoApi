@@ -1,0 +1,187 @@
+swagger: "2.0"
+info:
+  title: Sample API
+  description: API description in Markdown.
+  version: 1.0.0
+host: localhost:3200
+schemes:
+  - http
+paths:
+  /:
+    get:
+      summary: Returns a list of users.
+      tags:
+        - name : User
+      description: Optional extended description in Markdown.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+  /login:
+    post:
+      summary: Login
+      tags:
+        - name : User
+      description: Login and check if user is present or not
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: credentials
+          required: true
+          schema:
+            type: object
+            required:
+              - email
+              - password
+            properties:
+              email:
+                type: string
+                example: sourabh@gmail.com
+              password:
+                type: string
+                example: 1234
+      responses:
+        200:
+          description: ok
+        400:
+          description: error
+  /register:
+    post:
+      summary: Register a user
+      description: Registration of user from given details
+      tags:
+        - name : User
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: credentials
+          required: true
+          schema:
+            type: object
+            required:
+              - firstName
+              - lastName
+              - email
+              - password
+            properties:
+              firstName:
+                type: string
+                example: sourabh
+              lastName:
+                type: string
+                example: kodag
+              email:
+                type: string
+                example: sourabh@gmail.com
+              password:
+                type: string
+                example: 1234
+      responses:
+        200:
+          description: ok
+        400:
+          description: error
+  /del:
+    delete:
+      summary: delete .
+      description: delete with the help of id.
+      produces:
+        - application/json
+      tags:
+        - name : User
+      parameters:
+        - in: body
+          name: id
+          required: true
+          type: object
+          properties:
+            id:
+              type: string
+              example: 61366738bc6d02fae21c32c9
+      responses:
+        200:
+          description: User deleted
+        404:
+          description: User not found
+  /noteget:
+    get:
+      summary: Returns a list of Notes.
+      tags:
+        - name : Notes
+      description: Returns all list of Notes avaliable in database.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+        400:
+          description: error
+  /noteget:
+    get:
+      summary: Returns a list of Notes.
+      tags:
+        - name : Notes
+      description: Returns all list of Notes avaliable in database.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+        400:
+          description: error
+  /notedelete:
+    post:
+      summary: Delete a node by ID.
+      tags:
+        - name : Notes
+      parameters:
+        - in: body
+          name: nodeId
+          required: true
+          type: object
+      responses:
+        200:
+          description: OK
+  /noteadd:
+    post:
+      summary: Register a user
+      description: Registration of user from given details
+      tags:
+        - name : Notes
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: credentials
+          required: true
+          schema:
+            type: object
+            properties:
+              title:
+                type: string
+                example: note
+              description:
+                type: string
+                example: here is the description of node
+              isPinned:
+                type: bool
+                example: false
+              isArchived:
+                type: bool
+                example: false
+              isDeleted:
+                type: bool
+                example: false
+              color:
+                type: string
+                example: AFE353              
+      responses:
+        200:
+          description: ok
+        400:
+          description: error
+
+  

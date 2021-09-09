@@ -1,0 +1,165 @@
+{"level":"info","message":"user found successfull","timestamp":"2021-09-07T15:55:32.342Z"}
+{"message":"listening at","level":"info","service":"user-service","timestamp":"2021-09-07T15:55:32.361Z"}
+{"level":"info","message":"user found successfull","timestamp":"2021-09-07T16:27:16.779Z"}
+{"message":"listening at","level":"info","service":"user-service","timestamp":"2021-09-07T16:27:16.797Z"}
+{"level":"info","message":"user found successfull","timestamp":"2021-09-07T16:27:42.829Z"}
+{"message":"listening at","level":"info","service":"user-service","timestamp":"2021-09-07T16:27:42.849Z"}
+{"message":"listening at","level":"info","service":"user-service","timestamp":"2021-09-07T16:29:15.374Z"}
+{"level":"info","message":"[object Object]","timestamp":"2021-09-07T16:33:11.259Z"}
+{"level":"info","message":"JSON.parse([object Object])","timestamp":"2021-09-07T16:39:11.077Z"}
+{"level":"info","message":"user found successfull) status:200 success:true","timestamp":"2021-09-07T16:42:57.023Z"}
+{"level":"error","message":"user not found) status:400 success:false","timestamp":"2021-09-07T17:14:04.180Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:06:47.764Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:06:49.642Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:07:45.816Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-07T22:07:50.226Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-07T22:09:30.724Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:11:17.275Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:12:19.890Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:14:21.733Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:15:11.899Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-07T22:17:45.085Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:19:37.822Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-07T22:19:45.439Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:22:30.252Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:22:45.266Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:26:59.855Z"}
+{"level":"error","message":"user not found) status:400 success:false","timestamp":"2021-09-07T22:30:22.133Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:31:07.816Z"}
+{"level":"info","message":"user found successfull) status:200 success:true","timestamp":"2021-09-07T22:31:12.304Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:32:01.018Z"}
+{"level":"info","message":"user found successfull) status:200 success:true","timestamp":"2021-09-07T22:32:21.846Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-07T22:33:19.249Z"}
+{"level":"info","message":"user found successfull) status:200 success:true","timestamp":"2021-09-07T22:33:40.829Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T02:33:16.401Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T02:35:19.985Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T03:08:54.422Z"}
+{"level":"info","message":"user found successfull) status:200 success:true","timestamp":"2021-09-08T03:09:12.849Z"}
+{"level":"error","message":"user not found) status:400 success:false","timestamp":"2021-09-08T03:25:50.130Z"}
+{"level":"info","message":"user found successfull) status:200 success:true","timestamp":"2021-09-08T03:26:04.158Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T03:59:01.729Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T05:53:36.934Z"}
+{"level":"info","message":"user created successfull) status:200 success:true","timestamp":"2021-09-08T05:56:40.303Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T05:59:03.523Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T05:59:12.451Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T05:59:16.954Z"}
+{"level":"info","message":"user created successfull) status:200 success:true","timestamp":"2021-09-08T06:14:12.858Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:17:00.701Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:17:56.165Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:18:18.296Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:18:40.473Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:23:38.976Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:37:34.678Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:41:00.107Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:41:34.749Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:42:56.569Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:42:58.436Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:44:20.704Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:45:18.549Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:49:15.822Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T06:49:41.922Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T06:58:03.664Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T06:58:27.806Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T07:11:02.437Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T07:11:41.815Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T07:21:53.775Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T07:35:49.631Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T07:37:13.242Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T07:39:06.687Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:09:42.189Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T15:10:45.332Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:14:01.333Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:14:06.443Z"}
+{"level":"info","message":"note add successfull) status:200 success:true","timestamp":"2021-09-08T15:16:59.651Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T15:17:26.175Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T15:22:16.567Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:25:45.167Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:27:24.127Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:28:56.050Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:32:18.522Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:32:36.309Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T15:32:54.374Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:43:28.592Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:43:30.744Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T15:43:32.648Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T16:15:56.641Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T16:16:24.011Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T16:17:30.974Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T16:18:44.890Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T16:18:53.296Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T16:54:48.724Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T16:58:33.682Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:01:56.494Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:02:58.330Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:02:59.833Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:03:01.683Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:08:53.391Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:10:08.731Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:11:43.680Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:11:47.421Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:13:08.715Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:14:24.545Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:15:13.323Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:39:39.443Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:40:43.948Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T17:41:34.121Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:42:28.510Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T17:43:02.487Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T17:54:04.968Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T17:54:51.172Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T18:48:49.445Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T18:50:16.973Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T18:54:33.540Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T19:04:17.934Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T19:08:15.572Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T19:10:11.848Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T19:10:48.374Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T19:33:36.679Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T19:47:58.154Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:16:56.437Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:18:55.562Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:19:29.048Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:20:46.243Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:20:48.851Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:22:03.755Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:23:10.183Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:23:16.041Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:23:28.229Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:23:51.752Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:25:23.051Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:26:28.602Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:28:50.259Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:28:53.530Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:29:12.881Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:29:47.175Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:30:30.486Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:31:00.677Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:31:21.839Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:32:20.973Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:32:36.040Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:35:23.914Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:35:50.955Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:36:55.895Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:37:26.386Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T20:37:59.255Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:38:07.755Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:38:08.651Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:38:09.229Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:38:09.666Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:38:10.097Z"}
+{"level":"info","message":"note get successfull) status:200 success:true","timestamp":"2021-09-08T20:38:10.530Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:04:34.529Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:16:01.391Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:19:31.915Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:20:43.073Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:22:14.903Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:22:31.812Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:24:25.434Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:25:30.134Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:26:16.033Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:28:57.157Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:30:01.846Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:41:10.062Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:43:43.054Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T21:44:24.202Z"}
+{"level":"info","message":"DB connected","timestamp":"2021-09-08T22:01:00.137Z"}

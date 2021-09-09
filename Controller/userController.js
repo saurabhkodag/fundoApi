@@ -1,4 +1,5 @@
 const service = require("../service/userservice");
+const log=require("../logger/logger");
 const {validationResult}=require('express-validator/check');
 class Registration{
     async Register(req,res){
@@ -11,11 +12,11 @@ class Registration{
         console.log("Inside register");
         await service.registerUser(req.body)
         .then((result)=>{
-            console.log("Inside successfull register",result);
+            res.status(200).json("successfull registered");
         })
 
     .catch((err)=>{
-        console.log("Inside successfull register");
+        res.status(400).json("unsuccessfull registered");
     });
 }
 }

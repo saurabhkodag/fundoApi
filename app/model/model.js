@@ -35,7 +35,8 @@ class UserModel{
         let response={
             "success":true,
             "message":"",
-            "data":""
+            "data":"",
+            "status":""
         }
         return new Promise((resolve,reject)=>{
             req.save().then((data)=>{
