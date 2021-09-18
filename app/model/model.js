@@ -20,7 +20,10 @@ const userSchema=new moongose.Schema({
         type:String,
         reqired :[true,"service required"]
     },
-},{
+    'token': {
+         type: String 
+        }
+    },{
     'timestamps':true
 
 })

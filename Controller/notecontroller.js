@@ -2,7 +2,8 @@ const { UserModel } = require("../app/model/model");
 const Note = require("../app/model/notemodel")
 const log=require("../logger/logger");
 const User = require("../app/model/model");
-const DEFAULT_LOG_STRING = `${new Date().toLocaleString()}: `
+const m=require("../Controller/mailer")
+const login=require("../app/model/loginmodel")
 let resp={
     "success":true,
     "message":"",
@@ -30,7 +31,7 @@ let notesControl = {
         if(request.body.color != null){
             aNote.color = request.body.color
         }
-
+            aNote.user_id=request.body.decode._id;    
         try{
             const newNote = await aNote.save()
             resp.status=200,
@@ -47,6 +48,8 @@ let notesControl = {
         }
     },
     async getAllUsers(req, res) {
+        //pm.request.headers.add({key: 'header_name', value: 'header_value' })
+        
         try {
             const allUsers = await User.User.find();
             console.log(allUsers);
@@ -56,10 +59,11 @@ let notesControl = {
           }
     },
     async userdel(req,res){
+        
         try{
         console.log(req.body.id);
-        let user=User.User.find(req.body.id);
-        user.remove();
+        let user= await User.User.find(req.body.id);
+        await user.remove();
         return res.status(200).json(user);
         }
         catch (error) {
@@ -84,18 +88,88 @@ let notesControl = {
     },
 
     async del(req,res){
-        // try{
-            console.log(req.body._id,"hii");
-            let user = await Note.findById(req.body._id);
-             console.log(user,"hii");
-            const nodedel= Note.updateOne({title:user.title}, { isDeleted: true });
-            // console.log(nodedel);
-            res.status(200).json("updates successfull");
-        // } catch(err){
-        //     return res.status(400).json({ message: err.messages });            
-        // }
-
+         try{
+            await Note.updateOne({title:req.body.title}, { isDeleted: true });
+            resp.status=200,
+            resp.message="note delete successfull",
+            resp.success=true;
+            log.log('info',`${resp.message}) status:${resp.status} success:${resp.success}`);
+            
+            
+        } catch(err){
+            resp.status=400,
+            resp.message="note delete unsuccessfull",
+            resp.success=false;
+            log.log('info',`${resp.message}) status:${resp.status} success:${resp.success}`);
+            return res.status(400).json({ message: err.messages });            
+        }
+    },
+    async arc(req,res){
+        try{
+           await Note.updateOne({title:req.body.title}, { isArchived: true });
+           resp.status=200,
+           resp.message="note Archived successfull",
+           resp.success=true;
+           log.log('info',`${resp.message}) status:${resp.status} success:${resp.success}`);
+           
+          
+       } catch(err){
+        resp.status=400,
+        resp.message="note delete unsuccessfull",
+        resp.success=false;
+        log.log('info',`${resp.message}) status:${resp.status} success:${resp.success}`);
+        return res.status(400).json({ message: err.messages });            
+       }
+   },
+   async reset_user(req,res){
+    let temp= await login.find({email:req.body.email});
+    console.log(temp[0].token);
+    if(temp.length!=0){
+    let token=temp[0].token;
+    console.log('token',temp[0]);
+     m.sendM(temp,token);
     }
+    else{
+        resp.status=400,
+        resp.message="user not found",
+        resp.success=false;
+        log.log('info',`${resp.message}) status:${resp.status} success:${resp.success}`);
+        return res.status(400).json({ message: err.messages });
+    }
+    },
+    async archivedShows(req,res){
+        let temp= await Note.find({user_id:req.body.decode._id,isArchived:true});
+        console.log(temp);
+        if(temp.length!=0){
+            return res.status(200).json(temp);
+        }
+        else{
+            return res.status(400).json('isArchived not found')
+        }
+    },
+    async deleteShows(req,res){
+        let temp= await Note.find({isDeleted:true});
+        console.log(temp);
+        if(temp.length!=0){
+            return res.status(200).json(temp);
+        }
+        else{
+            return res.status(400).json('isArchived not found')
+        }
+    },
+    async reset_pass(req,res){
+        const token=req.headers['auth']
+        console.log(req.body.decode._id);
+        if(token==null)return res.sendStatus(400)
+        else{
+            console.log(req.body.decode);
+            let find=await User.User.updateOne({_id:req.body.decode._id}, { password: req.body.password });
+            console.log(find);
+            return res.status(200).json(find);
+        }
+    }
+    
+    
 }
 
 module.exports = notesControl

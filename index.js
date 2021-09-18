@@ -11,6 +11,8 @@ const YAML=require('yamljs');
 const swaggerDocument=YAML.load('./swagger.yaml');
 app.use(express.json());
 app.use(expressValidator());
+var jwt = require('jsonwebtoken');
+var token = jwt.sign({ foo: 'bar' }, 'shhhhh');
 
 app.use('/api-docs',swaggerUi.serve,swaggerUi.setup(swaggerDocument));
 // log.log('info',"user found successfull");

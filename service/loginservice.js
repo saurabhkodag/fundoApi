@@ -1,7 +1,6 @@
 const model = require("../app/model/loginmodel");
 const User = require("../app/model/model");
 const log=require("../logger/logger");
-// const UserModel=new model.UserModel;
 const newmodel=model.User;
 let resp={
     "success":true,
@@ -12,20 +11,12 @@ let resp={
 class Service{
     
     async loginUser(res,req,obj){
-        // console.log('model',model.UserModel );
-        // if(model.User.find({"email":"sourabh@gmail.co"}).count()>0){
-        //     console.log("true");
-        // }
-        // else{
-        //     console.log("flase");
-        // }
         
         let newuser=new newmodel({
             "email":obj.email,
             "password":obj.password,
 
         });
-        // console.log(newuser);
         let e=newuser.email;
         let p=newuser.password;
     

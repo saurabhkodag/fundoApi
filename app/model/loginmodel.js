@@ -9,6 +9,13 @@ const userSchema = mongoose.Schema({
         type:String,
         required :[true,"password required"]
     },
+    'token':{
+        type:String,
+        required :[true,"token required"]
+    },
+    'login_id':{
+        type:String,
+        required :[true,"login required"]
+    }
 });
-let User = mongoose.model('test',userSchema);
-module.exports={User};
+module.exports= mongoose.model('test',userSchema);
